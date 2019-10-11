@@ -1,2 +1,5 @@
 server:
   port: 8088
+logging:
+  config:
+      classPath: log4j2-spring.xml
