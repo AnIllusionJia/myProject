@@ -1,8 +1,8 @@
 ${AnsiColor.BRIGHT_BLUE}
-Application Version: ${breeze.version}
+Application Version: ${myProject.version}
 Spring Boot Version: ${spring-boot.version}
 ***********************************************************
-* GitHub地址:https://justdoitwj.github.io                  *
+*                                                          *
 *                                                          *
 ***********************************************************
            _.._        ,------------------------.
