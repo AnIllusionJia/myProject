@@ -3,3 +3,12 @@ server:
 logging:
   config:
       classPath: log4j2-spring.xml
+spring:
+  datasource:
+    # 配置数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 使用druid连接池
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/xxb?characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&useSSL=true&serverTimezone=UTC
+    username: root
+    password: root
